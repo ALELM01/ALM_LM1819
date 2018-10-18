@@ -1,0 +1,54 @@
+table.tablap, table.tablap td, table.tablap th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  .verde {
+    background-color: rgb(152, 252, 152);
+  }
+
+  .naranja {
+    background-color: rgb(255, 186, 102);
+    letter-spacing: 40px;
+  }
+
+  .ultima{
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+  }
+  th, ultima{
+      border: 2px solid black;
+  }
+  td, ultima{
+    border: 2px solid black;
+}
+  #superior{
+    caption-side: top;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  #inferior{
+caption-side: bottom;
+font-size: 20px;
+font-weight:bold;
+color: brown;
+
+  }
+
+.piel{
+background-color: rgba(223, 221, 132, 0.986);
+color: rgb(184, 50, 50);
+text-align: center;
+width: 90px;
+}
+
+.azul{
+background-color: rgba(136, 214, 245, 0.986);
+color:blue;
+text-align: center;
+}
