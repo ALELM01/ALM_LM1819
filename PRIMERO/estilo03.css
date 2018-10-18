@@ -28,13 +28,16 @@ table.tablap, table.tablap td, table.tablap th {
   #superior{
     caption-side: top;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
   }
 
   #inferior{
 caption-side: bottom;
-font-size: 10px;
+font-size: 20px;
+font-weight:bold;
 color: brown;
+
   }
 
 .piel{
