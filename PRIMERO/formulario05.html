@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>Formulario de prueba de HTML5</title>
+</head>
+
+<body>
+    <h1 style="text-align: center">FORMULARIO</h1>
+    <form action="formulario.html"  method="get">
+    <table class="formulario" border="1">
+        <thead>
+             <tr>
+                <th style="text-align:left">Etiqueta</th>
+                <th>Valor</th>
+             </tr>  
+        </thead>
+
+
+        <tbody>
+
+            <tr>
+                
+                <td>Nombre:</td>
+                <td><input type="text" name="name_control" autofocus required /></td>
+            </tr>
+
+            <tr>
+                <td>Correo electrónico:</td>
+                <td><input type="email" name="email_control" required /></td>
+            </tr>
+            <tr>
+                <td>URL:</td>
+                <td><input type="url" name="url" placeholder="Escribe la URL de tu página web personal" /></td>
+            </tr>
+            <tr>
+                <td>Fecha:</td>
+                <td> <input type="date" name="fecha" /></td>
+            </tr>>
+            <tr>
+                <td>Tiempo:</td>
+                <td><input type="time" name="tiempo" /></td>
+            </tr>
+
+            <tr>
+                <td>Fecha y hora: </td>
+                <td><input type="datetime" name="fecha" /></td>
+            </tr>
+           <tr>
+               <td> Mes:</td>
+                <td><input type="month" name="mes" /></td>
+            </tr>
+
+           <tr>
+                <td>Semana:</td> 
+                <td><input type="week" name="semana" /></td>
+            </tr>
+               
+
+           <tr>
+                <td>Número (min -10, max 10):</td> 
+                <td><input type="number" name="número" min="-10" max="10" value="0" /></td>
+            </tr>
+               
+
+          <tr>
+                <td>Teléfono:</td> 
+                <td><input type="tel" name="teléfono" /></td>
+            </tr>
+
+            <tr>
+                <td>Término de búsqueda:</td> 
+                <td><input type="search" name="busqueda" /></td>
+            </tr>
+
+        <tr>
+                <td>Color favorito:</td> 
+                <td><input type="color" name="colores" /></td>
+        </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: right" ><input type="submit"  value="Enviar"/></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right"><input type="reset" value="Restablecer"></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</form>
+</body>
+
+</html>
